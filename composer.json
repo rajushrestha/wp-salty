@@ -1,0 +1,27 @@
+{
+    "name": "rajushrestha/wp-salty",
+    "description": "WP key and salt generator for dotEnv uses",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Raju Shrestha",
+          "email": "raju@lunover.com",
+          "role": "Developer"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/rajushrestha/wp-salty/issues"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "ircmaxell/random-lib": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPSalty\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
